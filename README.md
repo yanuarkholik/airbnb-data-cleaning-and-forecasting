@@ -1,3 +1,13 @@
-# AirBnB Data Cleaning, EDA, and Forecasting
+# AirBnB Data Cleaning and Sale Price Forecasting
 
-description will be updated soon
+Pelatihan sementara menggunakan Light Gradinet Boosting Machine (LightGBM) dan Support Vector Regression (SVR). Data dibersihkan dari nilai null yang kemudian dimasukkan kedalam fungsi perankingan fitur BayesSearchCV dengan 5 kali pelipatan. BSCV dilakukan hanya pada [LightGBM](https://github.com/yanuarkholik/airbnb-data-cleaning-and-forecasting/blob/main/params.csv) karena SVR memakan waktu yang lebih lama.
+
+Fitur peramalan terdiri dari 79 kolom data kategorikal independen dengan satu dependen atau target (Sale Price). Akan tetapi hasilnya kurang memuaskan, karena outlier dan volume dataset yang terbilang kecil.
+
+Hasil : 
+| | LightGBM | SVR |
+| ----- | ----- | ----- |
+| MedAE | 11540.77 | 15326.17 |
+| MAE | 18592.96 | 25633.69 |
+| RMSE | 33167.21 | 43584.37 |
+| R2 |  0.84593595 | 0.73396120 |
