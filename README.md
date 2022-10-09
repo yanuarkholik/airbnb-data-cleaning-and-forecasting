@@ -4,6 +4,11 @@ Pelatihan sementara menggunakan Light Gradinet Boosting Machine (LightGBM) dan S
 
 Fitur peramalan terdiri dari 79 kolom data kategorikal independen dengan satu dependen atau target (Sale Price). Akan tetapi hasilnya kurang memuaskan, karena outlier dan volume dataset yang terbilang kecil.
 
+### Perbandingan Data Actual vs LGBM vs SVR
+
+[image](https://github.com/yanuarkholik/airbnb-data-cleaning-and-forecasting/blob/main/image/perbandingan_svr_lgbm_actual.png)
+
+
 Hasil : 
 | | LightGBM | SVR |
 | ----- | ----- | ----- |
