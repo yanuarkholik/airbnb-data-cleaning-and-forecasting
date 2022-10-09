@@ -6,7 +6,7 @@ Fitur peramalan terdiri dari 79 kolom data kategorikal independen dengan satu de
 
 ### Perbandingan Data Actual vs LGBM vs SVR
 
-[image](https://github.com/yanuarkholik/airbnb-data-cleaning-and-forecasting/blob/main/image/perbandingan_svr_lgbm_actual.png)
+![Alt text](/image/perbandingan_svr_lgbm_actual.png)
 
 
 Hasil : 
