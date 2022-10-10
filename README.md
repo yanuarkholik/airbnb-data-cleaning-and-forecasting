@@ -6,7 +6,7 @@ Fitur peramalan terdiri dari 79 kolom data kategorikal independen dengan satu da
 
 ### Perbandingan Data Actual vs Prediksi LGBM vs Prediksi SVR
 
-![Alt text](/image/perbandingan_svr_lgbm_actual.png)
+![Alt text](/image/visualization.png)
 
 
 Hasil : 
